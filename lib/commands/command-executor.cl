@@ -1,3 +1,12 @@
+-- include "common/stack";
+-- include "commands/base-command";
+-- include "commands/eval-command";
+-- include "commands/plus-command";
+-- include "commands/stop-command";
+-- include "commands/swap-command";
+-- include "commands/value-command";
+-- include "commands/display-command";
+
 class CommandExecutor {
   execute(cmd: BaseCommand, stack: Stack): Object {
     case cmd of

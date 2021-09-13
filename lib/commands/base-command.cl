@@ -1,3 +1,5 @@
+-- include "common/showable";
+
 class BaseCommand inherits Showable {
   name: String; 
 

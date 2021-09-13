@@ -1,3 +1,12 @@
+-- include "common/atoi";
+-- include "commands/base-command";
+-- include "commands/eval-command";
+-- include "commands/plus-command";
+-- include "commands/stop-command";
+-- include "commands/swap-command";
+-- include "commands/value-command";
+-- include "commands/display-command";
+
 class CommandIO inherits IO {
   converter: A2I <- new A2I;
 

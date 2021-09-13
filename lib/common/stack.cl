@@ -1,3 +1,6 @@
+-- include "common/list";
+-- include "common/showable";
+
 class Stack {
   list: List <- new List;
 

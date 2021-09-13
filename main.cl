@@ -1,3 +1,7 @@
+-- include "common/stack";
+-- include "command/command-io";
+-- include "command/command-executor";
+
 class Main {
   io: CommandIO <- new CommandIO;
   stack: Stack <- new Stack;
